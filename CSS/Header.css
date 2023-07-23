@@ -1,0 +1,106 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.header_div{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  
+}
+
+.bargure_div span{
+  display: flex;
+  width: 1.5625rem;
+  height: .1875rem;
+  background-color: black;
+  margin-bottom: .375rem;
+  margin-left: 20rem;
+}
+
+.logo_img{
+  width: 4.375rem;
+}
+
+.header_div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1.875rem;
+}
+
+a{
+  text-decoration: none;
+  padding-right: .9375rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.header_links :hover{
+  color: #13c4a1;
+  font-size: 1.0625rem;
+  transition: .40s;
+}
+
+.enroll-btn{
+  background-color: #13c4a1;
+  
+}
+
+.enroll-btn a{
+  color: yellow;
+  
+}
+
+.enroll-btn{
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 10px;
+  padding-left: 25px;
+  font-size: 1.125rem;
+  font-weight: 31.25rem;
+  border-radius: .3125rem;
+   
+}
+
+.enroll-btn :hover{
+  box-shadow: .3125rem .3125rem .3125rem .3125rem;
+}
+
+.mobileMenu.bargure_div span:nth-child(2){
+  visibility: hidden;
+}
+
+.mobileMenu.bargure_div span:first-child{
+  transform: rotate(45deg);
+  transform-origin: 1%;
+}
+
+.mobileMenu.bargure_div span:last-child{
+  transform: rotate(-45deg);
+  transform-origin: -1%;
+}
+
+@media (max-width:500px) {
+  .header_links{
+       display: none;
+    }
+    .enroll-btn{
+      display: none;
+    }
+    .header_div{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+@media (min-width: 505px) {
+  .bargure_div {
+      display: none;
+
+  }
+  
+}
+
