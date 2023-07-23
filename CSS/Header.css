@@ -17,7 +17,7 @@
   height: .1875rem;
   background-color: black;
   margin-bottom: .375rem;
-  margin-left: 20rem;
+  margin-left: 0;
 }
 
 .logo_img{
@@ -56,9 +56,9 @@ a{
 
 .enroll-btn{
   padding-top: 13px;
-  padding-bottom: 13px;
-  padding-right: 10px;
-  padding-left: 25px;
+  padding-bottom: .8125rem;
+  padding-right: .625rem;
+  padding-left: 1.5625rem;
   font-size: 1.125rem;
   font-weight: 31.25rem;
   border-radius: .3125rem;
