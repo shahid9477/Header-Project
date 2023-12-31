@@ -28,7 +28,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 1.875rem;
+  margin-left: .9375rem;
 }
 
 a{
@@ -36,6 +36,7 @@ a{
   padding-right: .9375rem;
   font-size: 1rem;
   font-weight: bold;
+  color: black;
 }
 
 .header_links :hover{
@@ -83,6 +84,23 @@ a{
   transform-origin: -1%;
 }
 
+
+.MobileMenu1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+   background-color: black;
+   
+}
+
+.MobileMenu1 a{
+  margin-top: 1.25rem;
+  text-decoration: none;
+  color: white;
+   
+}
+
 @media (max-width:500px) {
   .header_links{
        display: none;
@@ -94,12 +112,16 @@ a{
       display: flex;
       justify-content: space-between;
     }
+    
   }
   
 @media (min-width: 505px) {
   .bargure_div {
       display: none;
 
+  }
+  .MobileMenu1{
+    display: none;
   }
   
 }
